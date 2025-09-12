@@ -15,3 +15,18 @@ CREATE TABLE IF NOT EXISTS `User` (
     UNIQUE KEY (`email`),
     UNIQUE KEY (`oneTimePassword`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+CREATE TABLE `saas\Plan` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) NOT NULL,
+    `billingCycle` INT NOT NULL,
+    `pricePerUser` DECIMAL(10, 2) NULL,
+    `basePrice` DECIMAL(10, 2) NULL,
+    `userLimit` INT NULL,
+    `bookable` TINYINT NOT NULL,
+    `created` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    `updated` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
