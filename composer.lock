@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa5e31369e6705af0f02154772d5a9d4",
+    "content-hash": "ce428b64f7ccc69cb5e5026ce1c637a6",
     "packages": [
         {
             "name": "eftec/bladeone",
@@ -185,21 +185,21 @@
         },
         {
             "name": "struktal/struktal-auth",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Struktal/struktal-auth.git",
-                "reference": "2cbb8bfe419dc72103f8059d4e4e81109d4e5340"
+                "reference": "91d367259e9ade4ad5882af3a9a229f5fb3ec20a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Struktal/struktal-auth/zipball/2cbb8bfe419dc72103f8059d4e4e81109d4e5340",
-                "reference": "2cbb8bfe419dc72103f8059d4e4e81109d4e5340",
+                "url": "https://api.github.com/repos/Struktal/struktal-auth/zipball/91d367259e9ade4ad5882af3a9a229f5fb3ec20a",
+                "reference": "91d367259e9ade4ad5882af3a9a229f5fb3ec20a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.2.0",
-                "struktal/struktal-orm": "^2.2.0"
+                "struktal/struktal-orm": "^2.4.0"
             },
             "type": "library",
             "autoload": {
@@ -219,9 +219,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Struktal/struktal-auth/issues",
-                "source": "https://github.com/Struktal/struktal-auth/tree/3.0.0"
+                "source": "https://github.com/Struktal/struktal-auth/tree/3.0.1"
             },
-            "time": "2025-09-12T11:54:58+00:00"
+            "time": "2025-09-14T12:48:06+00:00"
         },
         {
             "name": "struktal/struktal-composer-reader",
@@ -529,16 +529,16 @@
         },
         {
             "name": "struktal/struktal-orm",
-            "version": "2.2.0",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Struktal/struktal-orm.git",
-                "reference": "6505fad53f6bfc57f0e866e144e6afdd21f91ffd"
+                "reference": "10a75cbb6f147ab55a57f847944e120e7198adda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Struktal/struktal-orm/zipball/6505fad53f6bfc57f0e866e144e6afdd21f91ffd",
-                "reference": "6505fad53f6bfc57f0e866e144e6afdd21f91ffd",
+                "url": "https://api.github.com/repos/Struktal/struktal-orm/zipball/10a75cbb6f147ab55a57f847944e120e7198adda",
+                "reference": "10a75cbb6f147ab55a57f847944e120e7198adda",
                 "shasum": ""
             },
             "require": {
@@ -566,9 +566,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Struktal/struktal-orm/issues",
-                "source": "https://github.com/Struktal/struktal-orm/tree/2.2.0"
+                "source": "https://github.com/Struktal/struktal-orm/tree/2.4.2"
             },
-            "time": "2025-09-12T11:42:39+00:00"
+            "time": "2025-09-14T16:51:46+00:00"
         },
         {
             "name": "struktal/struktal-phpmailer-wrapper",
@@ -1985,16 +1985,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "b9e61a61e39e02dd90944e9115241c7f7e76bfd8"
+                "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/b9e61a61e39e02dd90944e9115241c7f7e76bfd8",
-                "reference": "b9e61a61e39e02dd90944e9115241c7f7e76bfd8",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/1e0cd5370df5dd2e556a36b9c62f62e555870495",
+                "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495",
                 "shasum": ""
             },
             "require": {
@@ -2026,22 +2026,22 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.2.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.3.0"
             },
-            "time": "2025-07-13T07:04:09+00:00"
+            "time": "2025-08-30T15:50:23+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "11.0.10",
+            "version": "11.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "1a800a7446add2d79cc6b3c01c45381810367d76"
+                "reference": "4f7722aa9a7b76aa775e2d9d4e95d1ea16eeeef4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/1a800a7446add2d79cc6b3c01c45381810367d76",
-                "reference": "1a800a7446add2d79cc6b3c01c45381810367d76",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/4f7722aa9a7b76aa775e2d9d4e95d1ea16eeeef4",
+                "reference": "4f7722aa9a7b76aa775e2d9d4e95d1ea16eeeef4",
                 "shasum": ""
             },
             "require": {
@@ -2098,7 +2098,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/show"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/11.0.11"
             },
             "funding": [
                 {
@@ -2118,7 +2118,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-18T08:56:18+00:00"
+            "time": "2025-08-27T14:37:49+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -3656,16 +3656,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v7.3.2",
+            "version": "v7.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "5f360ebc65c55265a74d23d7fe27f957870158a1"
+                "reference": "cb0102a1c5ac3807cf3fdf8bea96007df7fdbea7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/5f360ebc65c55265a74d23d7fe27f957870158a1",
-                "reference": "5f360ebc65c55265a74d23d7fe27f957870158a1",
+                "url": "https://api.github.com/repos/symfony/console/zipball/cb0102a1c5ac3807cf3fdf8bea96007df7fdbea7",
+                "reference": "cb0102a1c5ac3807cf3fdf8bea96007df7fdbea7",
                 "shasum": ""
             },
             "require": {
@@ -3730,7 +3730,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v7.3.2"
+                "source": "https://github.com/symfony/console/tree/v7.3.3"
             },
             "funding": [
                 {
@@ -3750,7 +3750,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-30T17:13:41+00:00"
+            "time": "2025-08-25T06:35:40+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -4224,16 +4224,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v7.3.0",
+            "version": "v7.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "40c295f2deb408d5e9d2d32b8ba1dd61e36f05af"
+                "reference": "32241012d521e2e8a9d713adb0812bb773b907f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/40c295f2deb408d5e9d2d32b8ba1dd61e36f05af",
-                "reference": "40c295f2deb408d5e9d2d32b8ba1dd61e36f05af",
+                "url": "https://api.github.com/repos/symfony/process/zipball/32241012d521e2e8a9d713adb0812bb773b907f1",
+                "reference": "32241012d521e2e8a9d713adb0812bb773b907f1",
                 "shasum": ""
             },
             "require": {
@@ -4265,7 +4265,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v7.3.0"
+                "source": "https://github.com/symfony/process/tree/v7.3.3"
             },
             "funding": [
                 {
@@ -4277,11 +4277,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-17T09:11:12+00:00"
+            "time": "2025-08-18T09:42:54+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -4368,16 +4372,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v7.3.2",
+            "version": "v7.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "42f505aff654e62ac7ac2ce21033818297ca89ca"
+                "reference": "17a426cce5fd1f0901fefa9b2a490d0038fd3c9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/42f505aff654e62ac7ac2ce21033818297ca89ca",
-                "reference": "42f505aff654e62ac7ac2ce21033818297ca89ca",
+                "url": "https://api.github.com/repos/symfony/string/zipball/17a426cce5fd1f0901fefa9b2a490d0038fd3c9c",
+                "reference": "17a426cce5fd1f0901fefa9b2a490d0038fd3c9c",
                 "shasum": ""
             },
             "require": {
@@ -4435,7 +4439,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v7.3.2"
+                "source": "https://github.com/symfony/string/tree/v7.3.3"
             },
             "funding": [
                 {
@@ -4455,7 +4459,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-10T08:47:49+00:00"
+            "time": "2025-08-25T06:35:40+00:00"
         },
         {
             "name": "ta-tikoma/phpunit-architecture-test",
