@@ -49,11 +49,29 @@ CREATE TABLE `saas\UserInLicense` (
     `consumer` INT NOT NULL,
     `joined` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `left` DATETIME(3) NULL,
+    `managesLicense` TINYINT NOT NULL DEFAULT 0,
     `leaveOnNextRenewal` TINYINT NOT NULL DEFAULT 0,
     PRIMARY KEY (`producer`, `consumer`),
     UNIQUE KEY (`producer`, `consumer`),
     FOREIGN KEY (`producer`) REFERENCES `User`(`id`) ON DELETE RESTRICT,
     FOREIGN KEY (`consumer`) REFERENCES `saas\License`(`id`) ON DELETE RESTRICT
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `saas\Invitation` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `email` VARCHAR(256) NOT NULL,
+    `token` VARCHAR(256) NOT NULL,
+    `license` INT NOT NULL,
+    `invitor` INT NOT NULL,
+    `invitee` INT NULL,
+    `invited` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    `answered` DATETIME(3) NULL,
+    `accepted` TINYINT NULL,
+    PRIMARY KEY (`id`),
+    UNIQUE KEY (`token`),
+    FOREIGN KEY (`license`) REFERENCES `saas\License`(`id`) ON DELETE RESTRICT,
+    FOREIGN KEY (`invitor`) REFERENCES `User`(`id`) ON DELETE RESTRICT,
+    FOREIGN KEY (`invitee`) REFERENCES `User`(`id`) ON DELETE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `saas\Discount` (

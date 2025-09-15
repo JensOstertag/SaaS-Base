@@ -12,6 +12,7 @@ class UserInLicense extends \struktal\ORM\GenericRelationship {
     public ?License $consumer = null;
     public ?\DateTimeImmutable $joined = null;
     public ?\DateTimeImmutable $left = null;
+    public bool $managesLicense = false;
     public bool $leaveOnNextRenewal = false;
 
     public function getProducer(): \User {
