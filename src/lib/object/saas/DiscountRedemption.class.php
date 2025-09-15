@@ -5,22 +5,20 @@ namespace saas;
 use struktal\ORM\GenericEntity;
 use struktal\ORM\RelationshipType;
 
-class UserInLicense extends \struktal\ORM\GenericRelationship {
+class DiscountRedemption extends \struktal\ORM\GenericRelationship {
     private static RelationshipType $relationshipType = RelationshipType::ONE_TO_ONE;
 
-    public ?\User $producer = null;
+    public ?Discount $producer = null;
     public ?License $consumer = null;
-    public ?\DateTimeImmutable $joined = null;
-    public ?\DateTimeImmutable $left = null;
-    public bool $leaveOnNextRenewal = false;
+    public ?\DateTimeImmutable $redemption = null;
 
-    public function getProducer(): \User {
+    public function getProducer(): Discount {
         return $this->producer;
     }
 
     public function setProducer(GenericEntity $producer): void {
-        if(!$producer instanceof \User) {
-            throw new \InvalidArgumentException("Producer must be an instance of User");
+        if(!$producer instanceof Discount) {
+            throw new \InvalidArgumentException("Producer must be an instance of Discount");
         }
 
         $this->producer = $producer;
