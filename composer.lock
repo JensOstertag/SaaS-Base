@@ -185,21 +185,21 @@
         },
         {
             "name": "struktal/struktal-auth",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Struktal/struktal-auth.git",
-                "reference": "2cbb8bfe419dc72103f8059d4e4e81109d4e5340"
+                "reference": "91d367259e9ade4ad5882af3a9a229f5fb3ec20a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Struktal/struktal-auth/zipball/2cbb8bfe419dc72103f8059d4e4e81109d4e5340",
-                "reference": "2cbb8bfe419dc72103f8059d4e4e81109d4e5340",
+                "url": "https://api.github.com/repos/Struktal/struktal-auth/zipball/91d367259e9ade4ad5882af3a9a229f5fb3ec20a",
+                "reference": "91d367259e9ade4ad5882af3a9a229f5fb3ec20a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.2.0",
-                "struktal/struktal-orm": "^2.2.0"
+                "struktal/struktal-orm": "^2.4.0"
             },
             "type": "library",
             "autoload": {
@@ -219,9 +219,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Struktal/struktal-auth/issues",
-                "source": "https://github.com/Struktal/struktal-auth/tree/3.0.0"
+                "source": "https://github.com/Struktal/struktal-auth/tree/3.0.1"
             },
-            "time": "2025-09-12T11:54:58+00:00"
+            "time": "2025-09-14T12:48:06+00:00"
         },
         {
             "name": "struktal/struktal-composer-reader",
@@ -529,16 +529,16 @@
         },
         {
             "name": "struktal/struktal-orm",
-            "version": "2.2.0",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Struktal/struktal-orm.git",
-                "reference": "6505fad53f6bfc57f0e866e144e6afdd21f91ffd"
+                "reference": "10a75cbb6f147ab55a57f847944e120e7198adda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Struktal/struktal-orm/zipball/6505fad53f6bfc57f0e866e144e6afdd21f91ffd",
-                "reference": "6505fad53f6bfc57f0e866e144e6afdd21f91ffd",
+                "url": "https://api.github.com/repos/Struktal/struktal-orm/zipball/10a75cbb6f147ab55a57f847944e120e7198adda",
+                "reference": "10a75cbb6f147ab55a57f847944e120e7198adda",
                 "shasum": ""
             },
             "require": {
@@ -566,9 +566,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Struktal/struktal-orm/issues",
-                "source": "https://github.com/Struktal/struktal-orm/tree/2.2.0"
+                "source": "https://github.com/Struktal/struktal-orm/tree/2.4.2"
             },
-            "time": "2025-09-12T11:42:39+00:00"
+            "time": "2025-09-14T16:51:46+00:00"
         },
         {
             "name": "struktal/struktal-phpmailer-wrapper",
@@ -4627,7 +4627,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
@@ -4636,9 +4636,9 @@
         "ext-curl": "*",
         "ext-json": "*"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
