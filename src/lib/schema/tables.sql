@@ -52,7 +52,6 @@ CREATE TABLE `saas\UserInLicense` (
     `managesLicense` TINYINT NOT NULL DEFAULT 0,
     `leaveOnNextRenewal` TINYINT NOT NULL DEFAULT 0,
     PRIMARY KEY (`producer`, `consumer`),
-    UNIQUE KEY (`producer`, `consumer`),
     FOREIGN KEY (`producer`) REFERENCES `User`(`id`) ON DELETE RESTRICT,
     FOREIGN KEY (`consumer`) REFERENCES `saas\License`(`id`) ON DELETE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

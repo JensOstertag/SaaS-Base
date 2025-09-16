@@ -2,7 +2,7 @@
 
 namespace saas\licenses;
 
-class GetLicensesUseCase implements \UC {
+class GetLicensesUC implements \UC {
     public function execute(\DTO $input): GetLicensesOutputDTO {
         if(!($input instanceof GetLicensesInputDTO)) {
             throw new \IncorrectDTOException();

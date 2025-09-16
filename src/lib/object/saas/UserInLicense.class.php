@@ -6,7 +6,7 @@ use struktal\ORM\GenericEntity;
 use struktal\ORM\RelationshipType;
 
 class UserInLicense extends \struktal\ORM\GenericRelationship {
-    private static RelationshipType $relationshipType = RelationshipType::ONE_TO_ONE;
+    private static RelationshipType $relationshipType = RelationshipType::ONE_TO_MANY;
 
     public ?\User $producer = null;
     public ?License $consumer = null;
