@@ -185,16 +185,16 @@
         },
         {
             "name": "struktal/struktal-auth",
-            "version": "3.0.1",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Struktal/struktal-auth.git",
-                "reference": "91d367259e9ade4ad5882af3a9a229f5fb3ec20a"
+                "reference": "b124a3df2c2ea45245ecbabd58703f4b693c561e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Struktal/struktal-auth/zipball/91d367259e9ade4ad5882af3a9a229f5fb3ec20a",
-                "reference": "91d367259e9ade4ad5882af3a9a229f5fb3ec20a",
+                "url": "https://api.github.com/repos/Struktal/struktal-auth/zipball/b124a3df2c2ea45245ecbabd58703f4b693c561e",
+                "reference": "b124a3df2c2ea45245ecbabd58703f4b693c561e",
                 "shasum": ""
             },
             "require": {
@@ -219,9 +219,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Struktal/struktal-auth/issues",
-                "source": "https://github.com/Struktal/struktal-auth/tree/3.0.1"
+                "source": "https://github.com/Struktal/struktal-auth/tree/3.1.1"
             },
-            "time": "2025-09-14T12:48:06+00:00"
+            "time": "2025-09-17T15:45:33+00:00"
         },
         {
             "name": "struktal/struktal-composer-reader",
@@ -4631,7 +4631,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
@@ -4640,9 +4640,9 @@
         "ext-curl": "*",
         "ext-json": "*"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
